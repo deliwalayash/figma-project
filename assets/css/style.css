@@ -5,7 +5,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .header{
+    padding: 20px 0;
+   
     background-color: black;
-    font-family: "Outfit", serif;
-    padding: 50px 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../images/Group\ 20\ \(1\).png);
+    height: 100vh;
+ 
 }
+
+:root{
+    --color-golden:#d1b06b;
+    --color-white:white;
+    --color-gery:#61606099;
+}
+
+
+
+.color-golden{
+    color: #d1b06b;  
+}
+
+.color-white{
+    color: white;
+}
+
+.font-outfit{
+    font-family: "Outfit", serif;
+    font-weight: 500;
+}
+
+.home::after{
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 20px;
+    width: 13px;
+    height: 2px;
+    background-color: #d1b06b;
+}
+
+.theme-btn{
+    border: 1px solid #d1b06b;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #d1b06b;
+    font-family: "Outfit", serif;
+
+}
+
+.about-info{
+    padding: 200px 0;
+}
+
+.theme-btn-2{
+    color: var(--color-white);
+    background-color: var(--color-golden);
+    padding: 8px 20px;
+    border: 1px solid var(--color-golden);
+}
+
+.about-us{
+    background-color: black;
+    padding: 100px 0;
+}
+
+.facilities{
+    padding: 200px 0;
+    background-color: #0e0e0e;
+}
+
