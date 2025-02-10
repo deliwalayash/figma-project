@@ -5021,8 +5021,8 @@ fieldset:disabled .btn {
     word-wrap: break-word;
     background-color: var(--bs-card-bg);
     background-clip: border-box;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    border-radius: var(--bs-card-border-radius)
+    border: none;
+    border-radius: 10px;
 }
 
 .card>hr {
@@ -5135,14 +5135,12 @@ fieldset:disabled .btn {
 
 .card-img,
 .card-img-top {
-    border-top-left-radius: var(--bs-card-inner-border-radius);
-    border-top-right-radius: var(--bs-card-inner-border-radius)
+   
 }
 
 .card-img,
 .card-img-bottom {
-    border-bottom-right-radius: var(--bs-card-inner-border-radius);
-    border-bottom-left-radius: var(--bs-card-inner-border-radius)
+   
 }
 
 .card-group>.card {
