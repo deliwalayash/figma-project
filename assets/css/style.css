@@ -8,6 +8,8 @@
     padding: 20px 0;
    position: absolute;
    width: 100%;
+   top: 0;
+ 
     
 }
 .bg-image{
@@ -15,7 +17,6 @@
     background-position: left;
     background-repeat: no-repeat;
     background-size: auto;
-    height: 100vh;
 }
 
 
@@ -245,3 +246,32 @@ color: var(--color-golden);
 .z-9{
     z-index: 999999 !important;
 }
+
+.reviews{
+    padding: 60px 0;
+    background-color: black;
+}
+
+.swiper-2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide-2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .review-card{
+    padding: 50px 30px;
+    background-color: #1e1e1e;
+ }
+
+ .contact{
+    padding: 60px 0;
+    background-color: black;
+ }
