@@ -1,0 +1,10 @@
+@media (max-width:1200px) {
+    .menu li{
+        font-size: 16px !important;
+    }
+
+     .theme-btn{
+        font-size: 16px !important;
+    }
+    
+}

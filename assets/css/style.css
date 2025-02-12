@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 *{
     font-family: 'Playfair Display';
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .header{
     padding: 20px 0;
@@ -38,7 +38,6 @@
 
 .font-outfit{
     font-family: "Outfit", serif;
-    font-weight: 500;
 }
 
 .home::after{
@@ -53,12 +52,21 @@
 
 .theme-btn{
     border: 1px solid #d1b06b;
-    padding: 8px 20px;
+    padding: 6px 20px;
     background-color: transparent;
     color: #d1b06b;
     font-family: "Outfit", serif;
     transition: all 0.3s linear;
 
+}
+
+.ri-menu-line{
+    color: var(--color-golden);
+    background-color: #0d0d0d;
+    border: 1px solid var(--color-golden);
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 
@@ -220,13 +228,13 @@ color: var(--color-golden);
 }
 
 .theme-btn:hover{
-    transform: translateX(0.5rem);
+   
     background-color: #d1b06b;
     color: black;
 }
 
 .theme-btn-2:hover{
-    transform: translateX(0.5rem);
+   
     background-color: transparent;
     color: white;
     
@@ -234,10 +242,12 @@ color: var(--color-golden);
 
 .pool-img img{
     transition: all 0.3s linear;
+
 }
 
 .pool-img img:hover{
     transform: scale(1.04);
+    
 }
 
 .pt-100{
@@ -272,6 +282,35 @@ color: var(--color-golden);
  }
 
  .contact{
-    padding: 60px 0;
+    padding: 90px 0;
     background-color: black;
+ }
+
+ input{
+    background-color: #0d0d0d;
+    border: 1px solid var(--color-golden);
+    padding: 5px;
+    color: #646464;
+    width: 100%;
+    
+ }
+
+ input:focus{
+    border: 1px solid var(--color-golden) !important;
+
+ }
+
+ .submit-btn{
+    background-color: var(--color-golden);
+    border: 1px solid var(--color-golden);
+    width: 100%;
+    color: white;
+    border-radius: 0;
+ }
+
+ .submit-btn:hover{
+    background-color: var(--color-golden);
+    color: var(--color-white);
+    border: 1px solid var(--color-golden);
+
  }
