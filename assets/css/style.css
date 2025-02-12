@@ -9,14 +9,14 @@
    position: absolute;
    width: 100%;
    top: 0;
- 
-    
+
 }
 .bg-image{
     background-image: url(../images/Group\ 20\ \(1\).png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: auto;
+   
+    padding: 300px 0;
 }
 
 
@@ -57,7 +57,28 @@
     color: #d1b06b;
     font-family: "Outfit", serif;
     transition: all 0.3s linear;
+    position: relative;
+}
 
+.theme-btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0 ;
+    background-color: var(--color-golden);
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+.theme-btn:hover::before{
+    width: 100%;
+    right: 0;
+    
+}
+
+.theme-btn:hover span{
+    color: white !important;
 }
 
 .ri-menu-line{
@@ -77,7 +98,28 @@
     padding: 8px 20px;
     border: 1px solid var(--color-golden);
     transition: all 0.3s linear;
+    position: relative;
     
+}
+.theme-btn-2::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0 ;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+.theme-btn-2:hover::before{
+    width: 100%;
+    right: 0;
+    
+}
+
+.theme-btn-2:hover span{
+    color: var(--color-golden) !important;
 }
 
 .about-us{
@@ -219,35 +261,30 @@ color: var(--color-golden);
     background-color: black;
 }
 
-.about-img img:hover{
-    transform: scale(1.1);
-}
 
 .about-img img{
     transition: all 0.3s linear;
 }
 
-.theme-btn:hover{
-   
-    background-color: #d1b06b;
-    color: black;
-}
 
-.theme-btn-2:hover{
-   
-    background-color: transparent;
-    color: white;
-    
-}
+
+
+
 
 .pool-img img{
     transition: all 0.3s linear;
+   
 
 }
 
 .pool-img img:hover{
     transform: scale(1.04);
     
+    
+}
+
+.offcanvas-body{
+    background-color: black;
 }
 
 .pt-100{
@@ -296,7 +333,8 @@ color: var(--color-golden);
  }
 
  input:focus{
-    border: 1px solid var(--color-golden) !important;
+    
+    outline: none !important;
 
  }
 
@@ -304,13 +342,52 @@ color: var(--color-golden);
     background-color: var(--color-golden);
     border: 1px solid var(--color-golden);
     width: 100%;
-    color: white;
+    color: black;
     border-radius: 0;
+    position: relative;
  }
 
- .submit-btn:hover{
-    background-color: var(--color-golden);
-    color: var(--color-white);
-    border: 1px solid var(--color-golden);
+ .submit-btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0 ;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
 
- }
+.submit-btn:hover::before{
+    width: 100%;
+    right: 0;
+    
+}
+
+.submit-btn:hover span{
+    color: var(--color-golden) !important;
+}
+
+.btn-close{
+   
+    background-color: white !important;
+}
+
+.font-30{
+    font-size: 20px;
+}
+
+.theme-btn-4{
+    border: 1px solid #d1b06b;
+    padding: 6px 20px;
+    background-color: transparent;
+    color: #d1b06b;
+    font-family: "Outfit", serif;
+    transition: all 0.3s linear;
+   
+}
+
+.title-img{
+    left: -80px;
+}
+
